@@ -9,10 +9,11 @@ import openpyxl
 from operator import itemgetter
 from GetPersonalityData import personality_dictionary
 import concurrent.futures
+import pathlib
 
 def get_streamings(path: str = 'alex@gmail_com') -> List[dict]:
 
-    files = [path + '/' + x for x in os.listdir(path)
+    files = [pathlib.PurePath(path, x) for x in os.listdir(path)
              if x.split('.')[0][:-1] == 'StreamingHistory']
 
     all_streamings = []
@@ -75,9 +76,20 @@ def get_final_feature_values(streamingData,token,topX,sortedListByStreamingTimes
     featuresKeyValues = {}
     featuresTSValues = {}
     print("Start:\n")
+    results = []
+    future_map = {}
+    future_results = []
     with concurrent.futures.ThreadPoolExecutor() as executor:
-        results = [(executor.submit(get_id, track, token),timePlayed) for track,timePlayed in streamingData.items()]
-    id_list = [(id.result(),timePlayed) for id, timePlayed in results]
+        # future_results = [(executor.submit(get_id, track, token),timePlayed) for track,timePlayed in streamingData.items() if timePlayed > sortedListByStreamingTimes[topX]]
+        for track,timePlayed in streamingData.items():
+            if timePlayed > sortedListByStreamingTimes[topX]:
+                future = executor.submit(get_id, track, token)
+                future_results.append(future)
+                future_map[future] = timePlayed
+        results = concurrent.futures.wait(future_results,return_when=concurrent.futures.ALL_COMPLETED)
+        #results.append((future_id.result(),future_map[future_id]))
+
+    id_list = [(ids.result(),future_map[ids]) for ids in results[0]]
     print(id_list)
     return
     with concurrent.futures.ThreadPoolExecutor() as executor:
@@ -172,13 +184,13 @@ def main():
 
     list_of_repos = []
     if menu_selection == 1:
-        list_of_repos = os.listdir('UserSpotifyData/')
+        list_of_repos = os.listdir(pathlib.Path('UserSpotifyData'))
     else:
         list_of_repos = ['grunew14@msu_edu']
 
     personality_dict = personality_dictionary()
     for repo in list_of_repos:
-        streamingData = get_streamings('UserSpotifyData/' + repo)
+        streamingData = get_streamings(pathlib.PurePath('UserSpotifyData',repo))
         topX, sortedListByStreamingTimes = get_upper_bound(streamingData)
         final_feature_values = get_final_feature_values(streamingData,token,topX,sortedListByStreamingTimes)
         return
