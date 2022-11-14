@@ -75,48 +75,24 @@ def get_final_feature_values(streamingData,token,topX,sortedListByStreamingTimes
     ffv = {}
     featuresKeyValues = {}
     featuresTSValues = {}
-    print("Start:\n")
-    results = []
-    future_map = {}
-    future_results = []
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        # future_results = [(executor.submit(get_id, track, token),timePlayed) for track,timePlayed in streamingData.items() if timePlayed > sortedListByStreamingTimes[topX]]
-        for track,timePlayed in streamingData.items():
-            if timePlayed > sortedListByStreamingTimes[topX]:
-                future = executor.submit(get_id, track, token)
-                future_results.append(future)
-                future_map[future] = timePlayed
-        results = concurrent.futures.wait(future_results,return_when=concurrent.futures.ALL_COMPLETED)
-        #results.append((future_id.result(),future_map[future_id]))
-
-    id_list = [(ids.result(),future_map[ids]) for ids in results[0]]
-    print(id_list)
-    return
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        results = [(executor.submit(get_features, id, token), timePlayed) for id, timePlayed in id_list]
-    features_list = [(features.result(), timePlayed) for features, timePlayed in results]
-
-    print(features_list)
-    return
-    for streamingName,timePlayed in streamingData.items():
+    for streamingName, timePlayed in streamingData.items():
         # Remove any song info that is not in the top topx = 50% (1-.5) of listened data
         if timePlayed < sortedListByStreamingTimes[topX]:
             continue
-        ID = get_id(streamingName,token)
+        ID = get_id(streamingName, token)
 
-        features = trim_features(get_features(ID,token))
+        features = trim_features(get_features(ID, token))
         if features is None:
             continue
 
-
         # get a single representative data point for each value in features
-        for key,value in features.items():
+        for key, value in features.items():
             if key != 'key' and key != 'time_signature':
                 if key in ffv:
-                    ffv[key][0] += value*timePlayed
+                    ffv[key][0] += value * timePlayed
                     ffv[key][1] += timePlayed
                 else:
-                    ffv[key] = [value*timePlayed,timePlayed]
+                    ffv[key] = [value * timePlayed, timePlayed]
             else:
                 if key == 'key':
                     if value in featuresKeyValues:
@@ -128,22 +104,37 @@ def get_final_feature_values(streamingData,token,topX,sortedListByStreamingTimes
                         featuresTSValues[value] += timePlayed
                     else:
                         featuresTSValues[value] = timePlayed
-    t1 = sorted([(key,value) for key,value in featuresKeyValues.items()],key=itemgetter(1))
-    t2 = sorted([(key,value) for key,value in featuresTSValues.items()],key=itemgetter(1))
+    t1 = sorted([(key, value) for key, value in featuresKeyValues.items()],
+                key=itemgetter(1))
+    t2 = sorted([(key, value) for key, value in featuresTSValues.items()],
+                key=itemgetter(1))
+    print(t1)
+    print(t2)
+    print(streamingData)
     ffv['key'] = t1[-1]
     ffv['time_signature'] = t2[-1]
-    dance = ffv['danceability'][0]/ffv['danceability'][1]
-    energy = ffv['energy'][0]/ffv['energy'][1]
+    dance = ffv['danceability'][0] / ffv['danceability'][1]
+    energy = ffv['energy'][0] / ffv['energy'][1]
     key = ffv['key'][0]
-    loud = ffv['loudness'][0]/ffv['loudness'][1]
-    speech = ffv['speechiness'][0]/ffv['speechiness'][1]
+    loud = ffv['loudness'][0] / ffv['loudness'][1]
+    speech = ffv['speechiness'][0] / ffv['speechiness'][1]
     ts = ffv['time_signature'][0]
-    acoust = ffv['acousticness'][0]/ffv['acousticness'][1]
-    inst = ffv['instrumentalness'][0]/ffv['instrumentalness'][1]
-    life = ffv['liveness'][0]/ffv['liveness'][1]
-    val = ffv['valence'][0]/ffv['valence'][1]
-    tempo = ffv['tempo'][0]/ffv['tempo'][1]
-    return [round(dance,2),round(energy,2),key,round(loud,1),round(speech,2),round(acoust,3),round(inst,2),round(life,3),round(val,2),round(tempo),ts]
+    acoust = ffv['acousticness'][0] / ffv['acousticness'][1]
+    inst = ffv['instrumentalness'][0] / ffv['instrumentalness'][1]
+    life = ffv['liveness'][0] / ffv['liveness'][1]
+    val = ffv['valence'][0] / ffv['valence'][1]
+    tempo = ffv['tempo'][0] / ffv['tempo'][1]
+    return [
+        round(dance, 2),
+        round(energy, 2), key,
+        round(loud, 1),
+        round(speech, 2),
+        round(acoust, 3),
+        round(inst, 2),
+        round(life, 3),
+        round(val, 2),
+        round(tempo), ts
+    ]
 
 def connect_to_Spotify(username = 'qut9zcs5mbfdmc5cykwudcjtj',
                        client_id = '248c415c42004414acfa6cc8fe305bc3',
@@ -193,7 +184,6 @@ def main():
         streamingData = get_streamings(pathlib.PurePath('UserSpotifyData',repo))
         topX, sortedListByStreamingTimes = get_upper_bound(streamingData)
         final_feature_values = get_final_feature_values(streamingData,token,topX,sortedListByStreamingTimes)
-        return
         person_dictionary_index = repo.replace('_','.')
         bigFive = personality_dict[person_dictionary_index]
 

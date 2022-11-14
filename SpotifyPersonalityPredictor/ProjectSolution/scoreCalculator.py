@@ -1,3 +1,5 @@
+## Deprecated
+
 data = {'Timestamp': '10/28/2022 10:51:04', 'Email Address': 'aswalman@msu.edu', 'questionAnswers': [3, 4, 2, 3, 1, 4, 2, 5, 2, 5]}
 
 key = 10
