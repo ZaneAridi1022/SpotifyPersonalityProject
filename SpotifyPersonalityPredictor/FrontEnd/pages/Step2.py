@@ -1,6 +1,13 @@
 import streamlit as st
 from PIL import Image
-import os
+import importlib.util
+
+spec = importlib.util.spec_from_file_location(
+    "SpotifyProject",
+    'C:\\Users\\nikon\\SpotifyPersonalityProject\\SpotifyPersonalityPredictor\\ProjectSolution\\SpotifyProject.py'
+)
+SP = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(SP)
 
 # This page is to explain how a user can download their spotify data and upload it to our website for analysis
 
@@ -41,5 +48,8 @@ elif (option == "Accessing Your Data"):
     )
 
 
-st.file_uploader("Please upload your Spotify data here",
+file = st.file_uploader("Please upload your Spotify data here",
                  accept_multiple_files=True)
+if file:
+    st.session_state.parameters = SP.main(file)
+    st.write("File upload complete! You may proceed to the next steps!")

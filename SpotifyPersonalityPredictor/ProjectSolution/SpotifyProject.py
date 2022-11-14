@@ -7,7 +7,8 @@ import pandas as pd
 import os
 import openpyxl
 from operator import itemgetter
-from GetPersonalityData import personality_dictionary
+import json
+import time
 import concurrent.futures
 import pathlib
 
@@ -30,6 +31,20 @@ def get_streamings(path: str = 'alex@gmail_com') -> List[dict]:
                 all_streamings.append(streaming)
     return totalTimeByTrack
 
+def get_streamings_given_jsons(files):
+    all_streamings = []
+    totalTimeByTrack = {}
+
+    for file in files:
+        new_streamings = json.load(file)
+        for streaming in new_streamings:
+            if streaming['trackName'] in totalTimeByTrack:
+                totalTimeByTrack[streaming['trackName']] += round(streaming['msPlayed']/60000)
+            else:
+                totalTimeByTrack[streaming['trackName']] = round(streaming['msPlayed']/60000)
+            all_streamings.append(streaming)
+
+    return totalTimeByTrack
 
 def get_id(track_name: str, token: str) -> str:
     headers = {
@@ -41,15 +56,20 @@ def get_id(track_name: str, token: str) -> str:
     ('q', track_name),
     ('type', 'track'),
     ]
+    response = None
     try:
         response = requests.get('https://api.spotify.com/v1/search',
-                    headers = headers, params = params, timeout = 5)
+                    headers = headers, params = params,timeout=10)
+        print(response)
         json = response.json()
+        
         first_result = json['tracks']['items'][0]
         track_id = first_result['id']
         return track_id
-    except:
-        return None
+    except Exception as json:
+        print(json)
+        print(response.headers['retry-after'])
+        return int(response.headers['retry-after'])
 
 
 def get_features(track_id: str, token: str) -> dict:
@@ -79,12 +99,14 @@ def get_final_feature_values(streamingData,token,topX,sortedListByStreamingTimes
         # Remove any song info that is not in the top topx = 50% (1-.5) of listened data
         if timePlayed < sortedListByStreamingTimes[topX]:
             continue
+        
         ID = get_id(streamingName, token)
-
+        if type(ID) is int:
+            time.sleep(ID)
+        
         features = trim_features(get_features(ID, token))
         if features is None:
             continue
-
         # get a single representative data point for each value in features
         for key, value in features.items():
             if key != 'key' and key != 'time_signature':
@@ -108,9 +130,6 @@ def get_final_feature_values(streamingData,token,topX,sortedListByStreamingTimes
                 key=itemgetter(1))
     t2 = sorted([(key, value) for key, value in featuresTSValues.items()],
                 key=itemgetter(1))
-    print(t1)
-    print(t2)
-    print(streamingData)
     ffv['key'] = t1[-1]
     ffv['time_signature'] = t2[-1]
     dance = ffv['danceability'][0] / ffv['danceability'][1]
@@ -165,33 +184,46 @@ def write_to_excel(final_data):
 
     currData.to_excel(dest, index=False)
 
-def main():
-    token = connect_to_Spotify()
+def main(files = None):
     menu_selection = 0
-    menu_selection = int(input('Please enter an option:\n 1. Update dataset based on many repos\n 2. Update dataset based on a single repo\n'))
+    if files is not None:
+        menu_selection = 2
+    else:
+        menu_selection = 1
+    token = connect_to_Spotify()
+    
+    # menu_selection = int(input('Please enter an option:\n 1. Update dataset based on many repos\n 2. Update dataset based on a single repo\n'))
     if menu_selection != 1 and menu_selection != 2:
         print('Invalid option.')
         return
 
     list_of_repos = []
+    personality_dict = dict()
     if menu_selection == 1:
+        from GetPersonalityData import personality_dictionary
+        personality_dict = personality_dictionary()
         list_of_repos = os.listdir(pathlib.Path('UserSpotifyData'))
     else:
         list_of_repos = ['grunew14@msu_edu']
-
-    personality_dict = personality_dictionary()
+    
     for repo in list_of_repos:
-        streamingData = get_streamings(pathlib.PurePath('UserSpotifyData',repo))
+        streamingData = {}
+        if menu_selection == 1:
+            streamingData = get_streamings(pathlib.PurePath('UserSpotifyData',repo))
+        elif menu_selection == 2:
+            streamingData = get_streamings_given_jsons(files)
         topX, sortedListByStreamingTimes = get_upper_bound(streamingData)
         final_feature_values = get_final_feature_values(streamingData,token,topX,sortedListByStreamingTimes)
+        if menu_selection == 2:
+            return final_feature_values
         person_dictionary_index = repo.replace('_','.')
         bigFive = personality_dict[person_dictionary_index]
-
+        
         write_to_excel(final_feature_values+bigFive)
 
     return
 
-main()
+# main()
 # dest = r"SpotifyPersonalityDataset.xlsx"
 # assert os.path.isfile(dest)
 # Testing area with hard coded values

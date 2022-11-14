@@ -9,6 +9,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 import pandas as pd
 import numpy as np
 import os
+import pathlib
 
 MODEL_MAPPING = {'lr':LinearRegression(),'xgb':XGBClassifier(),'gnb':GaussianNB()}
 def trainAndMakePrediction(x_in,y_in,model,encoder=False,trainOrPredict='train',manualTest=None):
@@ -114,8 +115,7 @@ def testingMode(x_in,y_in):
     print('\nActual: ', testOutput)
 
 def SpotifyModel(predictionData=None):
-    dest = r"SpotifyPersonalityDataset.xlsx"
-    assert os.path.isfile(dest)
+    dest = r"../../../../../../Users/nikon/SpotifyPersonalityProject/SpotifyPersonalityPredictor/ProjectSolution/SpotifyPersonalityDataset.xlsx"
 
     currData = pd.read_excel(dest)
 
@@ -146,4 +146,4 @@ def SpotifyModel(predictionData=None):
                                       trainOrPredict='predict',
                                       manualTest=predictionData)
 
-SpotifyModel()
+# SpotifyModel()

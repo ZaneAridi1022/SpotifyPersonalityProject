@@ -4,8 +4,11 @@ import streamlit as st
 
 st.title("Predict your Rythm")
 
-st.write("Thank you for your participation!")
+st.subheader(
+    "Answering these questions will give us your personality as you see it. We will train our model to try and guess the outcomes using this data. When our model does its prediction, its without having seen your data at all. When moving to step 5 make sure to keep in mind what your personality scores are from this page so you can check to see if our prediction is close to your actual outcomes! Thank you for your participation!"
+)
 
+st.write("_1 -> Strongly Disagree, 5 -> Strongly Agree_")
 ques1 = st.radio("I see myself as someone who is reserved",(1, 2, 3, 4, 5))
 
 ques2 = st.radio("I see myself as someone who is generally trusting",(1, 2, 3, 4, 5))
@@ -26,12 +29,18 @@ ques9 = st.radio("I see myself as someone who gets nervous easily",(1, 2, 3, 4, 
 
 ques10 = st.radio("I see myself as someone who has an active imagination",(1, 2, 3, 4, 5))
 
-extraversion = (6-ques1) + ques6
+st.session_state.extraversion = (6-ques1) + ques6
 
-agreeableness = (6-ques7) + ques2
+st.session_state.agreeableness = (6-ques7) + ques2
 
-conscientiousness = (6-ques3) + ques8
+st.session_state.conscientiousness = (6-ques3) + ques8
 
-neuroticism = (6-ques4) + ques9
+st.session_state.neuroticism = (6-ques4) + ques9
 
-openness = (6-ques5) + ques10
+st.session_state.openness = (6-ques5) + ques10
+
+st.write('Extraversion: ', st.session_state.extraversion)
+st.write('Agreeableness: ', st.session_state.agreeableness)
+st.write('Conscientiousness: ', st.session_state.conscientiousness)
+st.write('Neuroticism: ', st.session_state.neuroticism)
+st.write('Openness: ', st.session_state.openness)
