@@ -1,4 +1,3 @@
-#import Spotipy
 import ast
 from typing import List
 import spotipy
@@ -9,7 +8,6 @@ import openpyxl
 from operator import itemgetter
 import json
 import time
-import concurrent.futures
 import pathlib
 
 def get_streamings(path: str = 'alex@gmail_com') -> List[dict]:
@@ -172,7 +170,7 @@ def get_upper_bound(streamingData):
     sortedListByStreamingTimes = sorted([x for x in streamingData.values()])
     return int(len(sortedListByStreamingTimes)*.75),sortedListByStreamingTimes
 
-def write_to_excel(final_data):
+def write_to_excel(identifier,final_data):
     dest = r"SpotifyPersonalityDataset.xlsx"
     wb = openpyxl.load_workbook(dest)
     sheet = wb.worksheets[0]
@@ -180,7 +178,7 @@ def write_to_excel(final_data):
 
     currData = pd.read_excel(dest)
 
-    currData.loc[row_count] = [row_count]+final_data
+    currData.loc[row_count] = [identifier]+final_data
 
     currData.to_excel(dest, index=False)
 
@@ -192,7 +190,6 @@ def main(files = None):
         menu_selection = 1
     token = connect_to_Spotify()
     
-    # menu_selection = int(input('Please enter an option:\n 1. Update dataset based on many repos\n 2. Update dataset based on a single repo\n'))
     if menu_selection != 1 and menu_selection != 2:
         print('Invalid option.')
         return
@@ -200,8 +197,8 @@ def main(files = None):
     list_of_repos = []
     personality_dict = dict()
     if menu_selection == 1:
-        from GetPersonalityData import personality_dictionary
-        personality_dict = personality_dictionary()
+        # from GetPersonalityData import personality_dictionary
+        # personality_dict = personality_dictionary()
         list_of_repos = os.listdir(pathlib.Path('UserSpotifyData'))
     else:
         list_of_repos = ['grunew14@msu_edu']
@@ -219,26 +216,9 @@ def main(files = None):
         person_dictionary_index = repo.replace('_','.')
         bigFive = personality_dict[person_dictionary_index]
         
-        write_to_excel(final_feature_values+bigFive)
+        write_to_excel(repo[:2],final_feature_values+bigFive)
 
     return
 
 # main()
-# dest = r"SpotifyPersonalityDataset.xlsx"
-# assert os.path.isfile(dest)
-# Testing area with hard coded values
-#path = 'alex@gmail_com'
-#feature_values = [.5,.5,.5,.5,.5,.5,.5,.5,.5,.5,.5]
-#bigFive = [50,50,50,50,50]
-#dest = r"SpotifyPersonalityDataset.xlsx"
-#assert os.path.isfile(dest)
-#
-#wb = openpyxl.load_workbook(dest)
-#sheet = wb.worksheets[0]
-#row_count = sheet.max_row
-#
-#currData = pd.read_excel(dest)
-#
-#currData.loc[row_count] = ['1']+feature_values+bigFive
-#
-#currData.to_excel(dest, index=False)
+

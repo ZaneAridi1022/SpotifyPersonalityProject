@@ -74,7 +74,7 @@ def flatten(l):
 
 
 def personality_dictionary():
-    CLIENT_SECRET_FILE = 'client_secret.json'
+    CLIENT_SECRET_FILE = '../../../../../Users/nikon/SpotifyPersonalityProject/SpotifyPersonalityPredictor/ProjectSolution/client_secret.json'
     API_NAME = 'sheets'
     API_VERSION = 'v4'
     SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']

@@ -1,0 +1,1217 @@
+{
+  "playlists": [
+    {
+      "name": " :D",
+      "lastModifiedDate": "2022-11-10",
+      "items": [
+        {
+          "track": null,
+          "episode": {
+            "episodeName": "blackbear - hot girl bummer (slowed + reverb)",
+            "showName": "This is the newest podcast",
+            "episodeUri": "spotify:episode:2D3uSZqhmamJmDVZAR3F5R"
+          },
+          "localTrack": null,
+          "addedDate": "2021-01-30"
+        },
+        {
+          "track": {
+            "trackName": "Always",
+            "artistName": "The Snuts",
+            "albumName": "W.L.",
+            "trackUri": "spotify:track:77eb7DGxwuA3ID69HQeDsE"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-28"
+        },
+        {
+          "track": {
+            "trackName": "Turn",
+            "artistName": "The Night Café",
+            "albumName": "0151",
+            "trackUri": "spotify:track:7pcdLfd8mLsu9uQg039YAE"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-10-30"
+        },
+        {
+          "track": {
+            "trackName": "I Wanna Be Yours",
+            "artistName": "Arctic Monkeys",
+            "albumName": "AM",
+            "trackUri": "spotify:track:5XeFesFbtLpXzIVDNQP22n"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-01"
+        },
+        {
+          "track": {
+            "trackName": "Somebody Else",
+            "artistName": "Circa Waves",
+            "albumName": "Somebody Else",
+            "trackUri": "spotify:track:5e5WKjAFhtrQGVKUjVYPVh"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-28"
+        },
+        {
+          "track": {
+            "trackName": "Nobody Wants You",
+            "artistName": "junodream",
+            "albumName": "Isn’t It Lovely (To Be Alone)",
+            "trackUri": "spotify:track:2dQsITxA8aFKL3pGW14TqG"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-10-31"
+        },
+        {
+          "track": {
+            "trackName": "Off At One",
+            "artistName": "Declan Welsh and The Decadent West",
+            "albumName": "It's Been A Year",
+            "trackUri": "spotify:track:0H1m7v3Ek9MzcFAw03TQqV"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-10-30"
+        },
+        {
+          "track": {
+            "trackName": "Felicity",
+            "artistName": "The Night Café",
+            "albumName": "0151",
+            "trackUri": "spotify:track:41be5oQRvtkAoNdsnOQ6DN"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-03"
+        },
+        {
+          "track": {
+            "trackName": "Jungle",
+            "artistName": "Somebody's Child",
+            "albumName": "Jungle",
+            "trackUri": "spotify:track:1i0aCQ1Y2eXDKdQ6b9ph8m"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-10-30"
+        },
+        {
+          "track": {
+            "trackName": "Endless Lovers",
+            "artistName": "The Night Café",
+            "albumName": "0151",
+            "trackUri": "spotify:track:6W5im6BAQ5j8vETCR0IZYO"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-03"
+        },
+        {
+          "track": {
+            "trackName": "Tonight You Are Mine",
+            "artistName": "The Technicolors",
+            "albumName": "Ultraviolet Disguise (Deluxe Edition)",
+            "trackUri": "spotify:track:0Sjz8pTu8vcVvGP5rtyh3Q"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-10-31"
+        },
+        {
+          "track": {
+            "trackName": "Ellie",
+            "artistName": "Make Friends",
+            "albumName": "Ellie",
+            "trackUri": "spotify:track:7dKOxxLXUg9ypiE7ajXZh2"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-03"
+        },
+        {
+          "track": {
+            "trackName": "Thought I Told You",
+            "artistName": "The Academic",
+            "albumName": "Loose Friends",
+            "trackUri": "spotify:track:3OxSTFnMTWKvKdEAecY58v"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-03"
+        },
+        {
+          "track": {
+            "trackName": "Feels Like Trouble",
+            "artistName": "The Technicolors",
+            "albumName": "Ultraviolet Disguise (Deluxe Edition)",
+            "trackUri": "spotify:track:3bxVMQ3I0KUwWarVvrSZIZ"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-05"
+        },
+        {
+          "track": {
+            "trackName": "SPIT IN MY FACE!",
+            "artistName": "ThxSoMch",
+            "albumName": "SPIT IN MY FACE!",
+            "trackUri": "spotify:track:2jkyPVk1nbpsZD0KAS98Zw"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-07"
+        },
+        {
+          "track": {
+            "trackName": "Consume (feat. Goon Des Garcons)",
+            "artistName": "Chase Atlantic",
+            "albumName": "Chase Atlantic",
+            "trackUri": "spotify:track:0X2bh8NVQ8svDQIn2AdCbW"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        }
+      ],
+      "description": null,
+      "numberOfFollowers": 0
+    },
+    {
+      "name": ">:)",
+      "lastModifiedDate": "2022-11-10",
+      "items": [
+        {
+          "track": {
+            "trackName": "Matte Black",
+            "artistName": "Sadfriendd",
+            "albumName": "Matte Black",
+            "trackUri": "spotify:track:4ngAE5MFWuzqteZbM4Ugy4"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "12gauge!",
+            "artistName": "Sadfriendd",
+            "albumName": "12gauge!",
+            "trackUri": "spotify:track:5lBXXaxSVZl5p1a5yRxoW9"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "medusa!",
+            "artistName": "MUPP",
+            "albumName": "medusa!",
+            "trackUri": "spotify:track:0V1nzshK4HW8wSI8q2Nymz"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "Step Back!",
+            "artistName": "1nonly",
+            "albumName": "Step Back!",
+            "trackUri": "spotify:track:6jdwbcH788txYS6Doy1F1j"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "COWBELL WARRIOR!",
+            "artistName": "Sxmpra",
+            "albumName": "COWBELL WARRIOR!",
+            "trackUri": "spotify:track:5YVNmwohNrDoo4f8EQ5htK"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "vendetta!",
+            "artistName": "MUPP",
+            "albumName": "vendetta!",
+            "trackUri": "spotify:track:5Sk39LuvdwuvL84jD01Dum"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "bad!",
+            "artistName": "Sadfriendd",
+            "albumName": "bad!",
+            "trackUri": "spotify:track:5LEwPPegulMXShjwMYOfmH"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "OBSESSED",
+            "artistName": "Sadfriendd",
+            "albumName": "OBSESSED",
+            "trackUri": "spotify:track:1I29cQAqPZEDKVyTvLALJW"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "bloody!",
+            "artistName": "Sadfriendd",
+            "albumName": "bloody!",
+            "trackUri": "spotify:track:4ZBEfyphqFsSkjWP7y2L6E"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "SPIT IN MY FACE!",
+            "artistName": "ThxSoMch",
+            "albumName": "SPIT IN MY FACE!",
+            "trackUri": "spotify:track:2jkyPVk1nbpsZD0KAS98Zw"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "HEATSEEKER",
+            "artistName": "$werve",
+            "albumName": "365",
+            "trackUri": "spotify:track:7pp0iUDpQUCZRVsjszEsqa"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "Mine",
+            "artistName": "1nonly",
+            "albumName": "Mine",
+            "trackUri": "spotify:track:4O1UcKLwZ92kxNTn3u0voN"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "HIGH 4LERT",
+            "artistName": "Grioten",
+            "albumName": "HIGH 4LERT",
+            "trackUri": "spotify:track:4Am1mDdU4S0Mez2ckH3M4L"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "MUDD",
+            "artistName": "$werve",
+            "albumName": "MUDD",
+            "trackUri": "spotify:track:0MEMJNYVMS7TBNgFzV1aVN"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "Overdrive",
+            "artistName": "Hensonn",
+            "albumName": "Overdrive",
+            "trackUri": "spotify:track:2e05lvZznEjdCiop0mCNoJ"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "wtf?!",
+            "artistName": "Sadfriendd",
+            "albumName": "wtf?!",
+            "trackUri": "spotify:track:5rmX6fUcxsXNcZUyNuwmGo"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        },
+        {
+          "track": {
+            "trackName": "JUJUTSU!",
+            "artistName": "Xelishurt",
+            "albumName": "JUJUTSU!",
+            "trackUri": "spotify:track:7ihfyquukU66pSkI04jqec"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        }
+      ],
+      "description": null,
+      "numberOfFollowers": 0
+    },
+    {
+      "name": ">:) (2.0)",
+      "lastModifiedDate": "2022-11-08",
+      "items": [
+        {
+          "track": {
+            "trackName": "MIDNIGHT",
+            "artistName": "PLAYAMANE",
+            "albumName": "MIDNIGHT",
+            "trackUri": "spotify:track:2WzAAerBvZvvFXgUpSwHZ9"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "IMMACULATE",
+            "artistName": "VISXGE",
+            "albumName": "IMMACULATE",
+            "trackUri": "spotify:track:5Txeau6Fi96zS4THXUJ4w7"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "vendetta!",
+            "artistName": "MUPP",
+            "albumName": "vendetta!",
+            "trackUri": "spotify:track:5Sk39LuvdwuvL84jD01Dum"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "Destroy",
+            "artistName": "Maskmane",
+            "albumName": "Destroy",
+            "trackUri": "spotify:track:5EMInCZTrRQ2obeOlmpHtd"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "COWBELL WARRIOR!",
+            "artistName": "Sxmpra",
+            "albumName": "COWBELL WARRIOR!",
+            "trackUri": "spotify:track:5YVNmwohNrDoo4f8EQ5htK"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "TOTALITARIANISM",
+            "artistName": "STAYSOLD",
+            "albumName": "TOTALITARIANISM",
+            "trackUri": "spotify:track:79ilEKIBX0a03chBgjgONr"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-17"
+        },
+        {
+          "track": {
+            "trackName": "DEADLY HEIST",
+            "artistName": "509 $icario",
+            "albumName": "DEADLY HEIST",
+            "trackUri": "spotify:track:3gmll0WuIKm5z2PnVvD9Lc"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "REQUIEM OF SOULS",
+            "artistName": "$werve",
+            "albumName": "REQUIEM OF SOULS",
+            "trackUri": "spotify:track:5HcOtiAmfB9IkGuyUnjv92"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "TEMPLAR",
+            "artistName": "STAYSOLD",
+            "albumName": "TEMPLAR",
+            "trackUri": "spotify:track:5dX63tfq43YByw9HLWHJOj"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "UNCOVERED KILLER",
+            "artistName": "Mista Playa",
+            "albumName": "UNCOVERED KILLER",
+            "trackUri": "spotify:track:4PveqlRhgkZWEeiwEaQ4XS"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "SLAUGHTER HOUSE",
+            "artistName": "Phonkha",
+            "albumName": "SLAUGHTER HOUSE",
+            "trackUri": "spotify:track:512GmOfa7bOg5IJcrVHMdy"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "RAGNAROK",
+            "artistName": "chyxz",
+            "albumName": "RAGNAROK",
+            "trackUri": "spotify:track:1sWb35nydLCjD71JGURDEv"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "SHADOW",
+            "artistName": "ONIMXRU",
+            "albumName": "SHADOW",
+            "trackUri": "spotify:track:0wGbyS1tExQSwOYu6UceyE"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "bad!",
+            "artistName": "Sadfriendd",
+            "albumName": "bad!",
+            "trackUri": "spotify:track:5LEwPPegulMXShjwMYOfmH"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "MIDNIGHT - Sped Up",
+            "artistName": "PLAYAMANE",
+            "albumName": "MIDNIGHT",
+            "trackUri": "spotify:track:7eDWKD5xTzz5gV5X6RB0BM"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "HELLDRIFT 2",
+            "artistName": "HXI",
+            "albumName": "HELLDRIFT 2",
+            "trackUri": "spotify:track:6Afxf4h7z4MWJXR8E94DW7"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-24"
+        },
+        {
+          "track": {
+            "trackName": "VOID WHISPERS",
+            "artistName": "ovg!",
+            "albumName": "VOID WHISPERS",
+            "trackUri": "spotify:track:5dvfruqsiGLLndsMeazjH8"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-10-15"
+        },
+        {
+          "track": {
+            "trackName": "SLAUGHTER HOUSE - Sped Up",
+            "artistName": "Phonkha",
+            "albumName": "SLAUGHTER HOUSE",
+            "trackUri": "spotify:track:7hEQydPFCJzv56IYlDZQuO"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-22"
+        },
+        {
+          "track": {
+            "trackName": "Disturbed",
+            "artistName": "Maskmane",
+            "albumName": "Disturbed",
+            "trackUri": "spotify:track:6fqGu8QxiQqszqCiAATKZ6"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-24"
+        },
+        {
+          "track": {
+            "trackName": "DIRTY",
+            "artistName": "Xantesha",
+            "albumName": "DIRTY",
+            "trackUri": "spotify:track:5NR90euHZrzjEf95oW4tTg"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-27"
+        },
+        {
+          "track": {
+            "trackName": "BOROS",
+            "artistName": "VISXGE",
+            "albumName": "BOROS",
+            "trackUri": "spotify:track:4RnKaIoOkcA3O7J30x89py"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-24"
+        },
+        {
+          "track": {
+            "trackName": "MENACE - Sped up",
+            "artistName": "NQVV",
+            "albumName": "MENACE",
+            "trackUri": "spotify:track:0TDh3slBwMj04qYZdKJOmt"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-10-30"
+        },
+        {
+          "track": {
+            "trackName": "Devour",
+            "artistName": "Maskmane",
+            "albumName": "Devour",
+            "trackUri": "spotify:track:6beHAybUFPI46svSXODT1v"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-24"
+        },
+        {
+          "track": {
+            "trackName": "Greed - Sped Up",
+            "artistName": "Maskmane",
+            "albumName": "Greed",
+            "trackUri": "spotify:track:2Z6wmvtmzKTvn7j1aE6zay"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-05"
+        },
+        {
+          "track": {
+            "trackName": "Matte Black",
+            "artistName": "Sadfriendd",
+            "albumName": "Matte Black",
+            "trackUri": "spotify:track:4ngAE5MFWuzqteZbM4Ugy4"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-05"
+        },
+        {
+          "track": {
+            "trackName": "WORTH NOTHING",
+            "artistName": "TWISTED",
+            "albumName": "WORTH NOTHING",
+            "trackUri": "spotify:track:5Zlb01Jcn0Ld49zazzZJSB"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-05"
+        },
+        {
+          "track": {
+            "trackName": "OBSESSED",
+            "artistName": "Sadfriendd",
+            "albumName": "OBSESSED",
+            "trackUri": "spotify:track:1I29cQAqPZEDKVyTvLALJW"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-05"
+        },
+        {
+          "track": {
+            "trackName": "Limbo",
+            "artistName": "Freddie Dredd",
+            "albumName": "Freddie's Inferno",
+            "trackUri": "spotify:track:37F7E7BKEw2E4O2L7u0IEp"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-05"
+        },
+        {
+          "track": {
+            "trackName": "bloody!",
+            "artistName": "Sadfriendd",
+            "albumName": "bloody!",
+            "trackUri": "spotify:track:4ZBEfyphqFsSkjWP7y2L6E"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-05"
+        },
+        {
+          "track": {
+            "trackName": "12gauge!",
+            "artistName": "Sadfriendd",
+            "albumName": "12gauge!",
+            "trackUri": "spotify:track:5lBXXaxSVZl5p1a5yRxoW9"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-05"
+        },
+        {
+          "track": {
+            "trackName": "Grave",
+            "artistName": "Pluxry SkUrt",
+            "albumName": "Grave",
+            "trackUri": "spotify:track:5szOX7spIbNY7qrILK7Rau"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-05"
+        },
+        {
+          "track": {
+            "trackName": "SPIT IN MY FACE!",
+            "artistName": "ThxSoMch",
+            "albumName": "SPIT IN MY FACE!",
+            "trackUri": "spotify:track:2jkyPVk1nbpsZD0KAS98Zw"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-05"
+        },
+        {
+          "track": {
+            "trackName": "Bloodline",
+            "artistName": "Sadfriendd",
+            "albumName": "Bloodline",
+            "trackUri": "spotify:track:2ADcRPIOSzDleuidOWkHId"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-05"
+        },
+        {
+          "track": {
+            "trackName": "medusa!",
+            "artistName": "MUPP",
+            "albumName": "medusa!",
+            "trackUri": "spotify:track:0V1nzshK4HW8wSI8q2Nymz"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-05"
+        },
+        {
+          "track": {
+            "trackName": "Molly - Guitar Remix",
+            "artistName": "725",
+            "albumName": "Molly (Guitar Remix)",
+            "trackUri": "spotify:track:3K8rd2QFLW6yZ5IogOHGZj"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-08"
+        }
+      ],
+      "description": null,
+      "numberOfFollowers": 0
+    },
+    {
+      "name": ";)",
+      "lastModifiedDate": "2022-11-10",
+      "items": [
+        {
+          "track": {
+            "trackName": "Cry Baby",
+            "artistName": "The Neighbourhood",
+            "albumName": "Wiped Out!",
+            "trackUri": "spotify:track:0EfsDEYaSjGYd66Pr881nq"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2021-01-08"
+        },
+        {
+          "track": {
+            "trackName": "Sex, Drugs, Etc.",
+            "artistName": "Beach Weather",
+            "albumName": "Chit Chat",
+            "trackUri": "spotify:track:04wODYKrbLNe7LTOaOPX3i"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2021-01-08"
+        },
+        {
+          "track": {
+            "trackName": "Tonight You Are Mine",
+            "artistName": "The Technicolors",
+            "albumName": "Ultraviolet Disguise (Deluxe Edition)",
+            "trackUri": "spotify:track:0Sjz8pTu8vcVvGP5rtyh3Q"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-08-15"
+        },
+        {
+          "track": {
+            "trackName": "Sweater Weather",
+            "artistName": "The Neighbourhood",
+            "albumName": "I Love You.",
+            "trackUri": "spotify:track:2QjOHCTQ1Jl3zawyYOpxh6"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2021-01-08"
+        },
+        {
+          "track": {
+            "trackName": "Void",
+            "artistName": "The Neighbourhood",
+            "albumName": "Hard To Imagine The Neighbourhood Ever Changing",
+            "trackUri": "spotify:track:2wXioTynVwrEWYRv6R6vEj"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2021-10-05"
+        },
+        {
+          "track": {
+            "trackName": "W.D.Y.W.F.M?",
+            "artistName": "The Neighbourhood",
+            "albumName": "I Love You.",
+            "trackUri": "spotify:track:3vooOYHU0Fi3ViCG7Ozh0Y"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2021-01-08"
+        },
+        {
+          "track": {
+            "trackName": "Softcore TikTok Version",
+            "artistName": "$h̟i͞b̢",
+            "albumName": "Softcore TikTok Version",
+            "trackUri": "spotify:track:5euUuh0LcXyGBepddUYidX"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-03"
+        },
+        {
+          "track": {
+            "trackName": "$TING",
+            "artistName": "The Neighbourhood",
+            "albumName": "The Love Collection",
+            "trackUri": "spotify:track:48YPDmhRIQRiusm5uCz5gX"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-10"
+        },
+        {
+          "track": {
+            "trackName": "Reflections",
+            "artistName": "The Neighbourhood",
+            "albumName": "Hard To Imagine The Neighbourhood Ever Changing",
+            "trackUri": "spotify:track:2xql0pid3EUwW38AsywxhV"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-08-28"
+        },
+        {
+          "track": {
+            "trackName": "Fallen Star",
+            "artistName": "The Neighbourhood",
+            "albumName": "Fallen Star",
+            "trackUri": "spotify:track:60F6pgM6H6miNr5AmjxwjL"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-10"
+        },
+        {
+          "track": {
+            "trackName": "Dance In Room Song",
+            "artistName": "Sipper",
+            "albumName": "Pink Songs",
+            "trackUri": "spotify:track:52sDdbKEy6OQbv36sU2lSD"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-01"
+        },
+        {
+          "track": {
+            "trackName": "R.I.P. 2 My Youth",
+            "artistName": "The Neighbourhood",
+            "albumName": "Wiped Out!",
+            "trackUri": "spotify:track:07VBqWH6NG8L2ad3l84UKk"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-08-24"
+        },
+        {
+          "track": {
+            "trackName": "Prey",
+            "artistName": "The Neighbourhood",
+            "albumName": "Wiped Out!",
+            "trackUri": "spotify:track:38kjFXYgPvtuXCPbHPMGte"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-10"
+        },
+        {
+          "track": {
+            "trackName": "Alleyways",
+            "artistName": "The Neighbourhood",
+            "albumName": "I Love You.",
+            "trackUri": "spotify:track:4V37tyDu9CtqYshvrgLke4"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-08-26"
+        },
+        {
+          "track": {
+            "trackName": "BABYDOLL",
+            "artistName": "Ari Abdul",
+            "albumName": "BABYDOLL",
+            "trackUri": "spotify:track:5rPNVwYjVEgkq6YNPki4Zc"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-10"
+        },
+        {
+          "track": {
+            "trackName": "Mistakes Like This",
+            "artistName": "Prelow",
+            "albumName": "Why Does Everything Happen So Much EP",
+            "trackUri": "spotify:track:4telT9zZWgv4d8gD4WZrlA"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-10"
+        },
+        {
+          "track": {
+            "trackName": "Softcore",
+            "artistName": "The Neighbourhood",
+            "albumName": "Hard To Imagine The Neighbourhood Ever Changing",
+            "trackUri": "spotify:track:2K7xn816oNHJZ0aVqdQsha"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-08-28"
+        },
+        {
+          "track": {
+            "trackName": "Lurk",
+            "artistName": "The Neighbourhood",
+            "albumName": "#000000 & #FFFFFF",
+            "trackUri": "spotify:track:6NK6BSGwtmJ1HTOCYRWslQ"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-20"
+        },
+        {
+          "track": {
+            "trackName": "Uncomfortable",
+            "artistName": "Wallows",
+            "albumName": "Uncomfortable",
+            "trackUri": "spotify:track:4BreyjJu4w5EUhTKPIQymq"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-13"
+        },
+        {
+          "track": {
+            "trackName": "Always",
+            "artistName": "The Snuts",
+            "albumName": "W.L.",
+            "trackUri": "spotify:track:77eb7DGxwuA3ID69HQeDsE"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-10-18"
+        },
+        {
+          "track": {
+            "trackName": "24/7",
+            "artistName": "The Neighbourhood",
+            "albumName": "Hard To Imagine The Neighbourhood Ever Changing",
+            "trackUri": "spotify:track:4Cdb1dE3pfiWlqnAIcImyQ"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-20"
+        },
+        {
+          "track": {
+            "trackName": "& Cry!",
+            "artistName": "Middle Part",
+            "albumName": "& Cry!",
+            "trackUri": "spotify:track:5l5teEvDfzMI7zM26xeHRV"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-13"
+        },
+        {
+          "track": {
+            "trackName": "Everlong",
+            "artistName": "Foo Fighters",
+            "albumName": "The Colour And The Shape",
+            "trackUri": "spotify:track:5UWwZ5lm5PKu6eKsHAGxOk"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-16"
+        },
+        {
+          "track": {
+            "trackName": "Single",
+            "artistName": "The Neighbourhood",
+            "albumName": "Wiped Out!",
+            "trackUri": "spotify:track:5Ma3BlNVDtn3JiwMEafSaq"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-20"
+        },
+        {
+          "track": {
+            "trackName": "I Wanna Be Yours",
+            "artistName": "Arctic Monkeys",
+            "albumName": "AM",
+            "trackUri": "spotify:track:5XeFesFbtLpXzIVDNQP22n"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-09-25"
+        }
+      ],
+      "description": null,
+      "numberOfFollowers": 1
+    },
+    {
+      "name": ":/",
+      "lastModifiedDate": "2022-11-10",
+      "items": [
+      ],
+      "description": null,
+      "numberOfFollowers": 0
+    },
+    {
+      "name": " :(",
+      "lastModifiedDate": "2022-11-13",
+      "items": [
+        {
+          "track": {
+            "trackName": "Boardwalk",
+            "artistName": "The Snuts",
+            "albumName": "W.L.",
+            "trackUri": "spotify:track:2WXr7qSBv9YRgTMicayaTo"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-10-05"
+        },
+        {
+          "track": {
+            "trackName": "$TING",
+            "artistName": "The Neighbourhood",
+            "albumName": "The Love Collection",
+            "trackUri": "spotify:track:48YPDmhRIQRiusm5uCz5gX"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-13"
+        },
+        {
+          "track": {
+            "trackName": "I Want You",
+            "artistName": "Blaenavon",
+            "albumName": "Everything That Makes You Happy",
+            "trackUri": "spotify:track:7K5OAzU0bM4pewLC24G2Zn"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-10-30"
+        },
+        {
+          "track": {
+            "trackName": "Those Eyes",
+            "artistName": "New West",
+            "albumName": "Those Eyes",
+            "trackUri": "spotify:track:2GThBgzZoZfz0lx1JjBwfe"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-10-07"
+        },
+        {
+          "track": {
+            "trackName": "My Kind of Woman",
+            "artistName": "Mac DeMarco",
+            "albumName": "2",
+            "trackUri": "spotify:track:6jgkEbmQ2F2onEqsEhiliL"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-10-15"
+        },
+        {
+          "track": {
+            "trackName": "Car's Outside",
+            "artistName": "James Arthur",
+            "albumName": "YOU",
+            "trackUri": "spotify:track:0otRX6Z89qKkHkQ9OqJpKt"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-04"
+        },
+        {
+          "track": {
+            "trackName": "In My Room",
+            "artistName": "Chance Peña",
+            "albumName": "In My Room",
+            "trackUri": "spotify:track:3SM7uIYEz3v3BGy9RHp7oU"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-04"
+        },
+        {
+          "track": {
+            "trackName": "Romantic Homicide",
+            "artistName": "d4vd",
+            "albumName": "Romantic Homicide",
+            "trackUri": "spotify:track:1xK59OXxi2TAAAbmZK0kBL"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-06"
+        },
+        {
+          "track": {
+            "trackName": "Sweet",
+            "artistName": "Cigarettes After Sex",
+            "albumName": "Cigarettes After Sex",
+            "trackUri": "spotify:track:3VSYkAf6f46i5ZkXOHORq1"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-13"
+        },
+        {
+          "track": {
+            "trackName": "Sunsetz",
+            "artistName": "Cigarettes After Sex",
+            "albumName": "Cigarettes After Sex",
+            "trackUri": "spotify:track:69UqtTHfUKAJweQwEStRzC"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-13"
+        },
+        {
+          "track": {
+            "trackName": "Apocalypse",
+            "artistName": "Cigarettes After Sex",
+            "albumName": "Cigarettes After Sex",
+            "trackUri": "spotify:track:3AVrVz5rK8Hrqo9YGiVGN5"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-13"
+        },
+        {
+          "track": {
+            "trackName": "K.",
+            "artistName": "Cigarettes After Sex",
+            "albumName": "Cigarettes After Sex",
+            "trackUri": "spotify:track:7LX4aXtvImhdgUHQBlo8Kp"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-13"
+        },
+        {
+          "track": {
+            "trackName": "Mr. Forgettable",
+            "artistName": "David Kushner",
+            "albumName": "Footprints I Found",
+            "trackUri": "spotify:track:0c8K5IUrmVlieC0Fc0d8tV"
+          },
+          "episode": null,
+          "localTrack": null,
+          "addedDate": "2022-11-13"
+        }
+      ],
+      "description": null,
+      "numberOfFollowers": 0
+    }
+  ]
+}
